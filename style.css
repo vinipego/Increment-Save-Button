@@ -1,0 +1,84 @@
+body {
+    /* border: 5px solid yellow; */
+    margin: 0 auto;
+    padding: 0;
+    max-width: 800px;
+    color: white;
+    background-color: rgb(221, 221, 221);
+}
+
+#counter-container {
+    margin: 0;
+    padding: 0.1px 0 0 0;
+    background-image: url(img/the-eolian.jpg);
+    background-size: cover;
+    text-align: center;
+    height: 500px;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+    margin: 0;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: rgb(168, 168, 168);
+    /* border: 2px solid green; */
+}
+
+#heading {
+    margin: 20px 0 0 0;
+}
+
+#sub-heading {
+    margin: 0 auto 20px auto;
+    border-bottom: 2px solid orange;
+    width: 300px;
+}
+
+#counter-heading {
+    margin: 10px;
+}
+
+.counter-btn {
+    width: 150px;
+    padding: 20px 20px;
+    margin: 10px;
+    font-weight: bold;
+    border-radius: 50px;
+    border: none;
+}
+
+#increment-btn {
+    background-color: rgb(131, 131, 255);
+    color: blue;
+    border: 2px solid blue;
+}
+
+#increment-btn:hover {
+    box-shadow: 0px 0px 15px 0px;
+}
+
+#save-btn {
+    background-color: rgb(126, 255, 126);
+    color: green;
+    border: 2px solid green;
+}
+
+#save-btn:hover {
+    box-shadow: 0px 0px 15px 0px;
+}
+
+#display-save-el {
+    margin: 0 0 50px 0;
+    padding: 25px;
+}
+
+#display-guests-wrapper {
+    margin: 10px auto;
+    max-width: 400px;
+    background-color: rgba(0, 0, 0, 0.378);
+    border-radius: 80px;
+    border: none;
+}
